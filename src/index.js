@@ -14,7 +14,7 @@ function Card(props) {
     const {img,name} = props;
     return(
        <>
-       <Na/>
+      
         <div className="card">
         
            <img  src={img} alt=""  className="car" />
