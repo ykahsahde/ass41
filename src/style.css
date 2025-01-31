@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card{
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: #d2adad;
+    box-shadow: 2px 3px 6px 3px gray;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.container :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.car{
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+}
+.heading{
+    text-align: center;
+    margin: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card p{
+    padding: 20px;
+    font-size: 20px;
+    color:#6f6b6b ;
+}
+.card h3{
+    padding: 20px;
+    font-size: 20px;
+    color:#352f2f ;
+}
+.rat{
+   display: block;
+   margin: 0px auto;
+   padding: 10px;
+    font-size: 20px;
+    background-color: #d08787;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+}
