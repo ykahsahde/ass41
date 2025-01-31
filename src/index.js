@@ -1,7 +1,6 @@
 import {createRoot} from "react-dom/client";   
 import "./style.css";
 import Button,{Addbut} from "./button";
-import Na from "./nav"
 
 import img1 from "./image/poki1.jpg";
 import img2 from "./image/poki2.png";
