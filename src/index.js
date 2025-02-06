@@ -1,10 +1,10 @@
 import {createRoot} from "react-dom/client";   
-import "./style.css";
-import Button,{Addbut} from "./button";
+import "../src/views/style.css";
+import Button,{Addbut} from "../src/component/button";
 
-import img1 from "./image/poki1.jpg";
-import img2 from "./image/poki2.png";
-import img3 from "./image/poki4.png";
+import img1 from "../src/component/image/poki1.jpg";
+import img2 from "../src/component/image/poki2.png";
+import img3 from "../src/component/image/poki4.png";
 
 
 

@@ -1,4 +1,4 @@
-import "./style.css";
+import "./button.css";
 export default function Button({Text}) {
   return <button className="rat">{Text}</button>;
 }
